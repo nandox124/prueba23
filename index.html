@@ -249,11 +249,21 @@
       .map-button, .whatsapp-button {
         font-size: 5vw;
       }
+
+      /* Reducir el tamaño del contador en pantallas medianas */
+      .countdown-item span {
+        font-size: 1.5em;
+      }
     }
 
     @media (max-width: 480px) {
       .map-button, .whatsapp-button {
         padding: 15px 25px;
+      }
+
+      /* Reducir aún más el tamaño del contador en pantallas más pequeñas */
+      .countdown-item span {
+        font-size: 1.2em;
       }
     }
   </style>
