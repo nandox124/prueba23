@@ -441,6 +441,12 @@
     }
 
     startCountdown();
+
+    // Bloquear el clic derecho
+    document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+    });
+
   </script>
 
 </body>
